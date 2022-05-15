@@ -1,0 +1,21 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+}
+
+.image-gallery-left-nav .image-gallery-svg,
+.image-gallery-right-nav .image-gallery-svg {
+  width: 20px;
+}
+
+.cardProduct:hover {
+  box-shadow: 0px 4px 35px rgb(168 172 176 / 49%);
+}
